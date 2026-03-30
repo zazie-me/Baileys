@@ -4,7 +4,7 @@ import { makeCommunitiesSocket } from './communities'
 
 // export the last socket layer
 const makeWASocket = (config: UserFacingSocketConfig) => {
-	// --- ZAZIE-MD CUSTOM BANNER ---
+	// --- ZAZIE-MD CUSTOM BANNER (NO TOP-LEVEL AWAIT) ---
 	console.log(`
 \x1b[36m /$$$$$$$$  /$$$$$$  /$$$$$$$$ /$$ /$$$$$$$$          /$$      /$$ /$$$$$$$ \x1b[0m
 \x1b[36m|____ /$$/ /$$__  $$|____ /$$/|__/| $$_____/          | $$$    /$$$| $$__  $$\x1b[0m
